@@ -2,6 +2,8 @@
 
 This repository demonstrates a practical implementation of Google's Agent-to-Agent (A2A) protocol using the python-a2a library. The system shows how specialized AI agents can communicate with each other through a standardized protocol to create a travel planning service.
 
+![A2A_banner](https://github.com/user-attachments/assets/d33a431b-d940-4a0a-aa0c-9790f5e4c250)
+
 ## What is A2A?
 
 Agent-to-Agent (A2A) is a protocol that standardizes how AI agents communicate with each other. Think of it as a "universal translator" that allows different AI systems to understand one another, regardless of which framework or platform they were built with.
