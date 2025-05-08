@@ -56,7 +56,7 @@ a2a-implementation/
    ```
    python orchestrator.py [city]
    ```
-   Where `[city]` is optional and defaults to "Tokyo". Available cities include Tokyo, New York, Paris, and London.
+   Where `[city]` is optional and defaults to "New York". Available cities include Tokyo, New York, Paris, and London.
 
 ## How It Works
 
