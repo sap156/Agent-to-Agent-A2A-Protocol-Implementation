@@ -1,0 +1,5 @@
+python-a2a[all]
+fastapi
+pydantic
+httpx
+uvicorn
