@@ -20,6 +20,25 @@ This project implements a simple travel planning system with three specialized a
 
 An orchestrator coordinates these agents, demonstrating how they can work together to create a comprehensive travel plan.
 
+## How A2A Works: Visual Overview
+
+![A2A](https://github.com/user-attachments/assets/de34f6a5-4e78-47a2-a5bf-5320332fe896)
+
+The diagram above illustrates how the A2A protocol enables agent communication in our travel planning system:
+
+1. The user initiates a request for a travel plan to a specific city
+2. The orchestrator agent receives this request and coordinates the process
+3. The orchestrator sends the city name to the Weather Agent
+4. The Weather Agent responds with weather information
+5. The orchestrator sends both city and weather info to the Hotel Agent
+6. The Hotel Agent responds with accommodation recommendations
+7. The orchestrator sends city, weather, and hotel info to the Activity Agent
+8. The Activity Agent suggests appropriate activities
+9. The orchestrator compiles all information into a comprehensive travel plan
+
+Each agent has an associated Agent Card that defines its capabilities and how to interact with it. These standardized Agent Cards are a key part of the A2A protocol, allowing agents to discover and understand each other's abilities.
+
+
 ## Project Structure
 
 ```
